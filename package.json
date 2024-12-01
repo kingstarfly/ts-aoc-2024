@@ -5,7 +5,9 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@types/lodash": "^4.17.13",
     "chalk": "latest",
+    "lodash": "^4.17.21",
     "ts-aoc-starter": "2.0.2"
   },
   "devDependencies": {
