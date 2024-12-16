@@ -8,6 +8,7 @@
     "@types/lodash": "^4.17.13",
     "chalk": "latest",
     "lodash": "^4.17.21",
+    "mathjs": "^14.0.1",
     "ts-aoc-starter": "2.0.2"
   },
   "devDependencies": {
