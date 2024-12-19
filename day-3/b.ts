@@ -51,6 +51,7 @@ export async function day3b(data: string[]) {
       console.log(line);
       let currentIndex = 0;
       let lineResult = 0;
+
       while (currentIndex < line.length) {
         console.log({ currentIndex });
         const checkMulResult = checkMul(currentIndex, line);
