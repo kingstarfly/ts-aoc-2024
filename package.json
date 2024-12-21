@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.1",
     "@types/lodash": "^4.17.13",
     "chalk": "latest",
     "lodash": "^4.17.21",
