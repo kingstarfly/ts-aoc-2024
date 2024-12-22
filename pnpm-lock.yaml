@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@datastructures-js/deque':
+        specifier: ^1.0.4
+        version: 1.0.4
       '@datastructures-js/priority-queue':
         specifier: ^6.3.1
         version: 6.3.1
@@ -60,6 +63,9 @@ packages:
   '@babel/runtime@7.26.0':
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
     engines: {node: '>=6.9.0'}
+
+  '@datastructures-js/deque@1.0.4':
+    resolution: {integrity: sha512-zlgVSsxqiAd+scLUILvx8E887o+6kYds9/d4DCM/mFOuUITUlPG/r3u5iPZjzW3o6XPPi+p66p3Kf1+wFxYvLQ==}
 
   '@datastructures-js/heap@4.3.3':
     resolution: {integrity: sha512-UcUu/DLh/aM4W3C8zZfwxxm6/6FIZUlm3mcAXuNOCa6Aj4iizNvNXQyb8DjZQH2jKSQbMRyNlngP6TPimuGjpQ==}
@@ -1228,6 +1234,8 @@ snapshots:
   '@babel/runtime@7.26.0':
     dependencies:
       regenerator-runtime: 0.14.1
+
+  '@datastructures-js/deque@1.0.4': {}
 
   '@datastructures-js/heap@4.3.3': {}
 
